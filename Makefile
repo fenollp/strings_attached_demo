@@ -18,4 +18,4 @@ distclean: clean clean-docs
 debug: all
 	erl -pa ebin/ -pa deps/*/ebin/ -eval 'c:l($(APP)).'
 
-demo: escript
+all: escript
